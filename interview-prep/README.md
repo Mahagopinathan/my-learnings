@@ -7,11 +7,14 @@ A structured, hands-on study set for backend interviews. Each file contains ques
 | File | Topics | # Questions |
 |------|--------|-------------|
 | [java-interview-questions.md](./java-interview-questions.md) | Core Java, OOP, Strings, Collections, Exceptions, Concurrency, JVM/GC, Java 8+, Coding | 55 |
+| [java-coding-logic-questions.md](./java-coding-logic-questions.md) | Number/string/array problems, patterns, recursion, searching/sorting, linked list & stack, Java 8 streams | 65 |
 | [spring-interview-questions.md](./spring-interview-questions.md) | IoC/DI, Bean lifecycle, Spring MVC, Spring Boot, Spring Data, AOP, Security | 55 |
 | [hibernate-interview-questions.md](./hibernate-interview-questions.md) | ORM, Entities & Mappings, Persistence Context, Fetching, Caching, JPQL/Criteria, Transactions, Performance | 50 |
 | [microservices-interview-questions.md](./microservices-interview-questions.md) | Fundamentals, Design, Communication, Discovery, Resilience, Data, Security, Observability, Spring Cloud | 56 |
+| [sql-database-questions.md](./sql-database-questions.md) | RDBMS basics, joins, CTEs, window functions, indexes, transactions, classic SQL query problems | 58 |
+| [mongodb-interview-questions.md](./mongodb-interview-questions.md) | CRUD, operators, indexes, aggregation pipeline, schema design, replication, sharding, Spring Data MongoDB | 57 |
 
-**Total: ~216 questions**
+**Total: ~395 questions**
 
 ---
 
@@ -28,10 +31,13 @@ A structured, hands-on study set for backend interviews. Each file contains ques
 ## Recommended study order
 
 Day 1–2 — **Java core** (collections, concurrency, JVM, Java 8+).
-Day 3–4 — **Spring** (IoC/DI, MVC, Boot, transactions).
-Day 5 — **Hibernate / JPA** (lifecycle, fetching, N+1, caching).
-Day 6–7 — **Microservices** (patterns, resilience, observability, Spring Cloud).
-Day 8 — **Mock interviews** + revisit weak spots.
+Day 3   — **Java coding/logic** (numbers, strings, arrays, streams).
+Day 4–5 — **Spring** (IoC/DI, MVC, Boot, transactions).
+Day 6   — **Hibernate / JPA** (lifecycle, fetching, N+1, caching).
+Day 7–8 — **Microservices** (patterns, resilience, observability, Spring Cloud).
+Day 9   — **SQL / databases** (joins, window functions, query problems).
+Day 10  — **MongoDB** (CRUD, aggregation, indexes, schema design).
+Day 11  — **Mock interviews** + revisit weak spots.
 
 ---
 
@@ -49,6 +55,8 @@ These are the "must-be-fluent" topics — make sure you can speak about them wit
 - `LazyInitializationException` causes and proper fixes.
 - Microservices: Saga pattern, Circuit Breaker, API Gateway, JWT/OAuth2.
 - CAP theorem & eventual consistency basics.
+- SQL: joins, GROUP BY vs HAVING, window functions (ROW_NUMBER/RANK/DENSE_RANK), Nth highest salary.
+- MongoDB: embed vs reference, aggregation pipeline, compound indexes (ESR rule), shard key choice.
 
 ---
 
@@ -56,9 +64,8 @@ These are the "must-be-fluent" topics — make sure you can speak about them wit
 
 - **System design** – design Twitter/URL shortener/Uber dispatch.
 - **Design patterns** – Singleton, Factory, Strategy, Observer, Builder, Decorator.
-- **Databases** – indexes, B-trees, transactions, replication, sharding.
 - **Kafka** – consumer groups, partitions, exactly-once, retention.
 - **DevOps** – Docker, Kubernetes basics, GitHub Actions/Jenkins.
-- **DSA** – arrays/strings, hash maps, two pointers, sliding window, BFS/DFS, dynamic programming basics.
+- **Advanced DSA** – BFS/DFS on trees & graphs, dynamic programming patterns, backtracking.
 
 Good luck with your prep!
